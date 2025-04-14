@@ -30,6 +30,8 @@ const About = () => {
       </p>
       <p className="text-lg leading-relaxed mb-4">
       With love and hope,
+      </p>
+      <p className="text-lg leading-relaxed mb-4">
       Eylül Polat & Zehra Betül Arslantaş
       </p>
     </div>
