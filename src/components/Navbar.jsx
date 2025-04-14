@@ -1,32 +1,50 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import logo from "../assets/logo.png";
 
 const Navbar = () => {
   return (
-    <nav className="bg-raisin text-white px-6 py-4 flex justify-between items-center shadow-md">
+    <nav className="sticky top-0 z-50 bg-raisin text-white px-6 py-4 flex justify-between items-center shadow-md">
       <div className="flex items-center gap-3">
-        <div className="text-cyclamen text-2xl">🎀</div>
-        <h1 className="text-2xl font-bold text-cyclamen">Pink Project</h1>
+        <div className="flex items-center">
+          <img
+            src={logo}
+            alt="Logo"
+            className="h-auto max-h-[70px] w-auto object-contain select-none pointer-events-none"
+          />
+        </div>
       </div>
-      <ul className="flex gap-6 text-sm font-medium">
+      <ul className="flex gap-8 text-base md:text-lg font-medium">
         <li>
-          <Link to="/about" className="hover:text-cyclamen transition">
+          <Link
+            to="/about"
+            className="text-base md:text-lg hover:text-cyclamen hover:text-xl transition-all duration-200"
+          >
             About Us
           </Link>
         </li>
         <li>
-          <Link to="/support" className="hover:text-cyclamen transition">
-            Support Groups
+          <Link
+            to="/support"
+            className="text-base md:text-lg hover:text-cyclamen hover:text-xl transition-all duration-200"
+          >
+            Connect & Share
           </Link>
         </li>
         <li>
-          <Link to="/education" className="hover:text-cyclamen transition">
+          <Link
+            to="/education"
+            className="text-base md:text-lg hover:text-cyclamen hover:text-xl transition-all duration-200"
+          >
             Education Center
           </Link>
         </li>
         <li>
-          <Link to="/chatbot" className="hover:text-cyclamen transition">
-            Chatbot
+          <Link
+            to="/chatbot"
+            className="text-base md:text-lg hover:text-cyclamen hover:text-xl transition-all duration-200"
+          >
+            Hopebot
           </Link>
         </li>
       </ul>

@@ -5,6 +5,7 @@ import About from "./pages/About";
 import Support from "./pages/Support";
 import Education from "./pages/Education";
 import Chatbot from "./pages/Chatbot";
+import Statue from "./components/Statue";
 
 function App() {
   return (
@@ -13,20 +14,11 @@ function App() {
         <Navbar />
         <div className="p-6">
           <Routes>
+            <Route path="/" element={<Statue />} />
             <Route path="/about" element={<About />} />
             <Route path="/support" element={<Support />} />
             <Route path="/education" element={<Education />} />
             <Route path="/chatbot" element={<Chatbot />} />
-            <Route
-              path="/"
-              element={
-                <div>
-                  <h2 className="text-xl font-medium text-raisin">
-                    Welcome to Pink Project 💗
-                  </h2>
-                </div>
-              }
-            />
           </Routes>
         </div>
       </div>
