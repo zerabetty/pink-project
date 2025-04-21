@@ -11,6 +11,9 @@ export default {
         battleship: "#868688",
         raisin: "#1E1E24",
       },
+      fontFamily: {
+        bonanova: ['"Bona Nova SC"', "serif"],
+      },
     },
   },
   plugins: [],

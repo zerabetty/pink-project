@@ -10,9 +10,9 @@ import Statue from "./components/Statue";
 function App() {
   return (
     <Router>
-      <div className="bg-misty min-h-screen">
+      <div className="bg-misty h-full">
         <Navbar />
-        <div className="p-6">
+        <div className="pt-24 px-6">
           <Routes>
             <Route path="/" element={<Statue />} />
             <Route path="/about" element={<About />} />
