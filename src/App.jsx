@@ -12,7 +12,7 @@ import RiskFactors from "./pages/RiskFactors";
 import TreatmentOptions from "./pages/TreatmentOptions";
 import SupportLovedOne from "./pages/SupportLovedOne";
 import BreastMyths from "./pages/BreastMyths";
-
+import ConnectAndShare from "./pages/ConnectAndShare";
 function App() {
   return (
     <Router>
@@ -22,12 +22,12 @@ function App() {
           <Routes>
             <Route path="/" element={<Statue />} />
             <Route path="/about" element={<About />} />
-            <Route path="/support" element={<Support />} />
             <Route path="/education" element={<Education />} />
             <Route path="/chatbot" element={<Chatbot />} />
             <Route path="/education/self-exam" element={<SelfExam />} />
             <Route path="/education/early-signs" element={<EarlySigns />} />
             <Route path="/education/risk-factors" element={<RiskFactors />} />
+            <Route path="/support" element={<ConnectAndShare />} />
             <Route
               path="/education/treatment-options"
               element={<TreatmentOptions />}
