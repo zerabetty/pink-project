@@ -1,4 +1,5 @@
 import React from "react";
+import breastmythImage from "../assets/education/breastcancermyth.jpg";
 
 const BreastMyths = () => {
   return (
@@ -6,6 +7,12 @@ const BreastMyths = () => {
       <h1 className="text-3xl font-bold text-raisin mb-6">
         Breast Cancer Myths & Facts
       </h1>
+      
+      <img
+        src={breastmythImage}
+        alt="Breast Cancer Myths & Facts"
+        className="rounded-lg shadow-md mb-6 w-full md:w-3/4 lg:w-2/3 mx-auto h-auto"
+      />
 
       <p className="text-lg text-battleship mb-4">
         There are many misconceptions when it comes to breast cancer. Let's explore some common myths and clarify the facts:

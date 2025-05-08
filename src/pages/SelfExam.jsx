@@ -11,7 +11,7 @@ const SelfExam = () => {
       <img
         src={selfExamImage}
         alt="Breast Self Exam"
-        className="rounded-lg shadow-md mb-6 w-full h-auto"
+        className="rounded-lg shadow-md mb-6 w-3/4 md:w-2/3 lg:w-1/2 mx-auto w-full h-auto"
       />
 
       <p className="text-lg text-battleship mb-4">

@@ -11,7 +11,7 @@ const SupportLovedOne = () => {
       <img
         src={supportImage}
         alt="Supporting a Loved One"
-        className="rounded-lg shadow-md mb-6 w-full h-auto"
+        className="rounded-lg shadow-md mb-6 w-full md:w-3/4 lg:w-2/3 mx-auto h-auto"
       />
 
       <p className="text-lg text-battleship mb-4">
